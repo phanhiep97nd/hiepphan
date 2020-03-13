@@ -233,8 +233,9 @@ color: #777777;
 /* ---end style skills--- */
 /* ---style experience--- */
 .experience{
-  height: 500px;
+ min-height: 500px;
   padding-top: 53px;
+  display: block;
 }
 table {
   border-collapse: collapse;
@@ -310,7 +311,22 @@ tr:nth-child(even) {
 .bottom div{
   background:white;
   padding: 10px;
+  text-align: center;
 }
 .bottom a{
   text-decoration: none;
+}
+/*reponsive*/
+@media screen and (max-width:  415px){
+  .progress-bar{
+    padding: 20px 20px;
+  }
+  .bottom{
+    padding: 10px;
+  }
+}
+@media screen and (max-width:  1200px){
+  .bottom{
+    padding: 10px 50px;
+  }
 }
