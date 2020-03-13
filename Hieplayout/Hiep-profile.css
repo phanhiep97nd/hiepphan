@@ -324,6 +324,15 @@ tr:nth-child(even) {
   .bottom{
     padding: 10px;
   }
+	 .text-welcome1{
+    font-size: 30px;
+  }
+  .text-welcome2{
+    font-size: 20px;
+  }
+  .home{
+    background-size: 414px 400px;
+  }
 }
 @media screen and (max-width:  1200px){
   .bottom{
