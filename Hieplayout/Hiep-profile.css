@@ -329,4 +329,7 @@ tr:nth-child(even) {
   .bottom{
     padding: 10px 50px;
   }
+.progress-bar{
+    padding: 100px 100px;
+  }
 }
