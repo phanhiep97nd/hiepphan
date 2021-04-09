@@ -194,6 +194,9 @@ color: #777777;
       }
       .slider-text6 {
         background: orange;
+      }
+      .slider-text7 {
+        background: rgb(189, 90, 54);
         animation: slide 10s linear infinite;
       }
       @keyframes slide {
